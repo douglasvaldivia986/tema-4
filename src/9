@@ -1,0 +1,29 @@
+
+public class Main {
+    public static void main(String[] args) {
+        int numeroIf = -20;
+
+        if (numeroIf>0){
+            System.out.println("numeroIF es positivo ");
+        } else if (numeroIf<0){
+            System.out.println("numeroIF es negativo");
+        } else if (numeroIf==0){
+            System.out.println("numeroIF es igual a 0");
+        } else {
+            System.out.println("no se ingreso un dato ejecutable ");
+        }
+
+        int numeroWhile=0;
+
+        while (numeroWhile <3){
+            System.out.println(numeroWhile);
+            numeroWhile =numeroWhile+1;
+
+        }
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor + 1) {
+            System.out.println(numeroFor);
+        }
+
+
+    }
+}

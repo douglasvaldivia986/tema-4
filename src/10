@@ -1,0 +1,12 @@
+ var hoy_es = "martes";
+       switch (hoy_es){
+           case ="lunes":
+           case ="martes":
+           case ="miercoles":
+           case ="jueves":
+           case ="viernes":
+               System.out.println("hoy es un dia laborable");
+               break;
+           case ="domingo":
+           case ="sabado":
+               System.out.println("hoy no es un dia laborable");
